@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/590c7158b4.js" crossorigin="anonymous"></script>
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon-1.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertext">
+                <p>Web Application Developer</p>
+                <h1>Hi, I'm <span>Siva</span><br>Subramaniyan S From Chennai</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------about------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="images/img1.png" >
+                </div>                
+                <div class="about-col-2">
+                    <h1 class="sub">About Me</h1>
+                    <p>Seeking a position to utilize my skills and abilities in the
+                        Information Technology Industry that offers professional
+                        growth while being resourceful, innovation and flexible
+                    </p>
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('project')">Project</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Language</span><br>C Basics</li>
+                            <li><span>Web Application</span><br>Web Design/Development</li>
+                            <li><span>Data Base</span><br>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <h3>FRESHER</h3>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Web Desinging and Development in Pumo Technovation Chennai</li>
+                            <li><span>2021</span><br>B.E MECH in Paavai College of Engineering</li>
+                            <li><span>2017</span><br>HSC in St. Joseph's Matriculation School Meenakshipuram</li>
+                            <li><span>2015</span><br>SSLC in St. Joseph's Matriculation School Meenakshipuram</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------services-------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub">My Services</h1>
+        </div>
+        <div class="serveces-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Offer web development services using reject.js for front-end development</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-webflow"></i>
+                <h2>Web Application</h2>
+                <p>Develop interactive and responsive web applications using reject.js framework</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>SQL</h2>
+                <p>creating, and managing databases for businesses. This includes tasks such as setting up databases, creating tables, defining relationships, and optimizing database performance</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+    <!-- --------------fortfolio--------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="heading">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.jpg">
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <p>The arrangement of elements on a webpage, including headers, navigation menus, content sections, and footers. A well-organized layout helps users navigate the site easily</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.jpg">
+                    <div class="layer">
+                        <h3>Web Application</h3>
+                        <p>The user interface of a web application is typically built using technologies such as HTML, CSS, and JavaScript. Modern web applications often use frameworks and libraries like React to create dynamic and interactive user interfaces</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.jpg">
+                    <div class="layer">
+                        <h3>DATA BASE</h3>
+                        <p> Data in a relational database is organized into tables, which consist of rows and columns. Each row represents a record or tuple, while each column represents an attribute or field. Tables are defined by their structure.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- -----------------contact------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> sivasubramaniyan2027@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i> 9159769707</p>
+                    <div class="social">
+                        <a href="" ><i class="fa-brands fa-instagram"></i></a>
+                        <a href="" ><i class="fa-brands fa-linkedin-in"></i></i></a>
+                    </div>
+                    <a href="images/SIVA SUBRAMANIYAN S.pdf" downlord class="btn btn2">Downlord CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="Email" placeholder="your email" required>
+                        <textarea name="Message"  cols="30" rows="6" placeholder="your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">copyright @ SIVA</div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName ("tab-links");
+        var tabcontent = document.getElementsByClassName ("tab-content");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontents of tabcontent) {
+                tabcontents.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link"); 
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0"
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyqixU7WgeMIZMX3uYoiVFBEyr29JU7QwYTepfevN_sGqyVo4pWF2AAznG8EKVERlLqDQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHtml =""
+            },3000) 
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script
+</body>
+</html>
